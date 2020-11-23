@@ -1,3 +1,6 @@
 django
 gunicorn
 django-heroku
+pandas
+numpy
+matplotlib
