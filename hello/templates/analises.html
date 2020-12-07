@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="data:image/png;base64,{{data}}" height="500", width="500">
+      <h3><span class="glyphicon glyphicon-info-sign"></span> O que esse gráfico significa?</h3>
+      <ul>
+        <li>Essa é a relação entre as seções e o número de eleitores que apareceram. </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

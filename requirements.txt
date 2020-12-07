@@ -3,4 +3,5 @@ gunicorn
 django-heroku
 pandas
 numpy
+pybase64
 matplotlib

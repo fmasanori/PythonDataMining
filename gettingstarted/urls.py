@@ -19,4 +19,7 @@ urlpatterns = [
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
     path('table/', hello.views.Table, name ="table"),
+    path('partidos/', hello.views.Partidos, name="partidos"),
+    path('analises/', hello.views.Analises, name="analises"),
+    path('analises2/', hello.views.Analises2, name="analises2")
 ]
